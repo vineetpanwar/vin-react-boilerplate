@@ -1,0 +1,22 @@
+{
+  "name": "vin-react-boilerplate",
+  "version": "1.0.0",
+  "description": "this is the zero config boilerplate example for react setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineetpanwar/vin-react-boilerplate.git"
+  },
+  "keywords": [
+    "vin-boilerplate"
+  ],
+  "author": "vineet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vineetpanwar/vin-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/vineetpanwar/vin-react-boilerplate#readme"
+}
