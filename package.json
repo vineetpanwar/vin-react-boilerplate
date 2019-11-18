@@ -4,7 +4,8 @@
   "description": "this is the zero config boilerplate example for react setup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint '**/*.js' ",
+    "lint:fix": "prettier-eslint '**/*.js' --write"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/vineetpanwar/vin-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/vineetpanwar/vin-react-boilerplate#readme"
+  "homepage": "https://github.com/vineetpanwar/vin-react-boilerplate#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier-eslint": "^9.0.1",
+    "prettier-eslint-cli": "^5.0.0"
+  }
 }
