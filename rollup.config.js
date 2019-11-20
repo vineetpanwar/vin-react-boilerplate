@@ -21,7 +21,7 @@ export default {
       format: 'esm'
     },
     {
-      name: 'Reference1',
+      name: 'Spinners',
       file: `${DIST}/${BUNDLE}.umd.js`,
       format: 'umd',
       globals: {

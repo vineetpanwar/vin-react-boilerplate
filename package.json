@@ -2,7 +2,9 @@
   "name": "vin-react-boilerplate",
   "version": "1.0.0",
   "description": "this is the zero config boilerplate example for react setup",
-  "main": "index.js",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "sideEffects": false,
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup -c",
@@ -60,5 +62,8 @@
   },
   "engines": {
     "node": ">=8"
+  },
+  "dependencies": {
+    "react": "^16.12.0"
   }
 }
