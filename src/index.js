@@ -1,4 +1,5 @@
-import React from 'react'
+export * from './ball'
 
-const spinner = props => <h1>this is spinner component</h1>
-export default spinner
+export * from './bars'
+
+export * from './ripple'
