@@ -1,5 +1,5 @@
-const React = require('react')
-const { Ball } = require('vin-react-boilerplate')
+const { createElement, Fragment } = require('react')
+const { Ball, Bars } = require('vin-react-boilerplate')
 const express = require('express')
 const ReactDOM = require('react-dom/server')
 
@@ -7,7 +7,9 @@ const PORT = 3000
 const app = express()
 
 app.get('*', (req, res) => {
-  const html = ReactDOM.renderToString(React.createElement(Ball))
+  const html = ReactDOM.renderToString(
+    createElement(Fragment, null, createElement(Ball), createElement(Bars))
+  )
   res.send(`<!DOCTYPE html>
 <html>
 <head>

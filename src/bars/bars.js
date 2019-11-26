@@ -3,7 +3,7 @@ import styles from './styles.css'
 
 const Bars = props => (
   <>
-    <style>{styles}</style>
+    {/* <style>{JSON.stringify(styles)}</style> */}
     <div className="loadingio-spinner-bars-z24tchv7tl">
       <div className="ldio-d8zed8iih1k">
         <div></div>
